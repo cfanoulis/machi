@@ -1,0 +1,28 @@
+{
+	"name": "machi",
+	"description": "Multi-threaded playlist downloader",
+	"type": "module",
+	"version": "0.0.1-dev",
+	"main": "index.js",
+	"author": "Charalampos Fanoulis",
+	"license": "MIT",
+	"dependencies": {
+		"fluent-ffmpeg": "^2.1.2",
+		"piscina": "^2.2.0",
+		"sanitize-filename": "^1.6.3",
+		"ytdl-core": "^4.5.0",
+		"ytpl": "^2.0.5"
+	},
+	"devDependencies": {
+		"@sapphire/prettier-config": "^1.0.7",
+		"prettier": "^2.2.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cfanoulis/machi"
+	},
+	"engines": {
+		"node": ">14"
+	},
+	"private": true
+}
